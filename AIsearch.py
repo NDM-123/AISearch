@@ -11,7 +11,7 @@ print("NMSLIB version:", nmslib.__version__)
 
 
 # Just read the data
-all_data_matrix = pd.read_csv("TBF.csv")
+all_data_matrix = pd.read_csv("TimeBasedFeatures-10s-Layer2.csv")
 df = all_data_matrix.drop('Source IP', axis=1)
 # df = all_data_matrix.drop('Source Port', axis=1, inplace=True)
 # label = df[['label']]
